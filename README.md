@@ -31,7 +31,7 @@ We will release our fine-tuned checkpoints soon.
 1. Run [`sentimen_gen.sh`](scripts/sentiment_gen.sh) and [`topic_gen.sh`](scripts/topic_gen.sh) to generate sentences for different attributes, where `--refine` is to allow gradient-based generation, `–-k` controls the number of retrieval results, `--similar-condition-prob` echoes the threshold $p$ in our paper, and `--max-control-step` defines the maximum number of retrieval steps.
 2. For sentiment-controlled generation, we support `positive` and `negative` sentiment. For topic-controlled generation, we support `business`, `polities`, `technology`, and `world news (world)`.
 
----
+## Cite this work
 
 Please cite our paper if it helps🤗.
 
